@@ -1,0 +1,114 @@
+/* - Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
+- Weights: 400
+
+- Family: [Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders+Display)
+- Weights: 700
+Font size: 15px
+
+### Primary
+
+Bright orange: hsl(31, 77%, 52%)
+Dark cyan: hsl(184, 100%, 22%)
+Very dark cyan: hsl(179, 100%, 13%)
+
+### Neutral
+
+Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
+Very light gray (background, headings, buttons): hsl(0, 0%, 95%) */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 15px;
+    background-color: hsl(0, 0%, 95%);
+    /* font-family: 'Lexend Deca', sans-serif; */
+    
+    }
+
+    .container{
+        /* border: 2px solid red; */
+        width: 700px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        margin-top: 150px;
+        border-radius: 10px;
+        /* background-color: rosybrown; */
+
+    }
+    .card{
+        /* width: 200px; */
+        height: 55vh;
+    }
+    #card1{
+        background-color: hsl(31, 77%, 52%);
+        border-top-left-radius: 10px;
+        border-bottom-left-radius:10px ;
+        padding: 20px;
+    }
+    #card2{
+        background-color: hsl(184, 100%, 22%);
+        padding: 20px;
+    }
+    #card3{
+        background-color: hsl(179, 100%, 13%);
+        padding: 20px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    h2{
+        padding: 10px;
+        text-transform: uppercase;
+        font-family: 'Big Shoulders Display', cursive;
+        color: hsl(0, 0%, 95%);
+    }
+    
+    p{
+        padding: 10px;
+        font-family: 'Lexend Deca', sans-serif;
+        color:  hsla(0, 0%, 100%, 0.75);
+
+    }
+
+    .btn{
+        margin-top: 25px;
+        margin-left: 15px;
+        text-transform: capitalize;
+        text-align: center;
+        background-color: hsl(0, 0%, 95%);
+        padding: 10px 20px;
+        border-radius: 20px;
+        border: transparent;
+        cursor: pointer;
+    }
+    #btn1{
+        color: hsl(31, 77%, 52%);
+    }
+
+    #btn2{
+        color:  hsl(184, 100%, 22%);
+    }
+    #btn3{
+        color:hsl(179, 100%, 13%) ;
+    }
+
+    #btn1:hover{
+        background-color:hsl(31, 77%, 52%) ;
+        color: wheat;
+        border: 2px solid hsl(0, 0%, 95%);
+    }
+    #btn2:hover{
+        background-color:hsl(184, 100%, 22%) ;
+        color: wheat;
+        border: 2px solid hsl(0, 0%, 95%);
+    }
+    #btn3:hover{
+        background-color:hsl(179, 100%, 13%);
+        color: wheat;
+        border: 2px solid hsl(0, 0%, 95%);
+    }
